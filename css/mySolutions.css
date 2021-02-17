@@ -1,0 +1,150 @@
+/* ex1 */
+.ex-1-square {
+  transition: background-color 2s;
+}
+.ex-1-square:hover {
+  background-color: red;
+}
+
+/* ex2 */
+.ex-2-square {
+  transition: width 2s;
+}
+.ex-2-square:active {
+  width: 100%;
+}
+
+/* ex3 */
+.ex-3-square {
+  transition: border-radius 2s;
+}
+
+.ex-3-square:hover {
+  border-radius: 50%;
+}
+
+/* ex4 */
+.ex-4-square {
+  transition: opacity 2s;
+}
+
+.ex-4-square:hover {
+  opacity: 0;
+}
+
+/* ex5 */
+.ex-5-square {
+  transition: all 2s;
+}
+
+.ex-5-square:hover {
+  transform: scale(2);
+}
+
+.ex-5-square:active {
+  transform: scale(0.5);
+}
+
+/* ex6 */
+.ex-6-img:hover {
+  filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+
+/* ex7 */
+.ex-7-img {
+  transition: filter 2s;
+}
+
+.ex-7-img:hover {
+  filter: grayscale(100%) sepia(100%);
+}
+
+/* ex8 */
+.ex-8-img {
+  transition: all 2s;
+}
+
+.ex-8-img:hover {
+  filter: grayscale(100%) sepia(100%);
+  border-radius: 10px;
+}
+
+/* ex9 */
+.ex-9-img {
+  transition: all 2s;
+}
+
+.ex-9-img:hover {
+  filter: grayscale(100%) sepia(100%);
+  border-radius: 10px;
+  transform: scale(1.5);
+}
+
+/* ex10 */
+.ex-10-icon {
+  animation: circle 2s linear infinite alternate-reverse;
+}
+
+@keyframes circle {
+  from {transform:rotate(0deg)}
+  to {transform:rotate(360deg)}
+}
+
+/* ex11 */
+.ex-11-icon:hover {
+  animation: circle-2 2s linear infinite;
+}
+
+@keyframes circle-2 {
+  from {transform:rotate(0deg)}
+  to {transform:rotate(270deg)}
+}
+
+/* ex12 */
+.ex-12-button:hover .ex-12-top-white {
+  animation: top-border-12 2s linear ;
+}
+
+@keyframes top-border-12 {
+  0%   {left: 10%; top: -10px;}
+  50%  {left: calc(100% - 60px); top: -10px;}
+  100% {left: 10%; top: -10px;}
+}
+
+.ex-12-button:hover .ex-12-bottom-white {
+    animation: bottom-border-12 2s linear;
+}
+
+@keyframes bottom-border-12 {
+  0%   {right: 20%; bottom: -10px;}
+  50%  {right: calc(100% - 60px); bottom: -10px;}
+  100% {right: 20%; bottom: -10px;}
+}
+
+/* ex13 */
+.ex-13-button:hover .ex-13-top-white {
+  animation: top-border-13 2s linear ;
+}
+
+@keyframes top-border-13 {
+  0%   {left: 10%; top: -10px;}
+  28.5%  {left: calc(100% - 30px); top: -10px;}
+  42.75%  {left: calc(100% - 30px); top: 100%;}
+  71.25%  {left: -30px; top: 100%;}
+  85.5%  {left: -30px; top: -10px;}
+  100% {left: 10%; top: -10px;}
+}
+
+.ex-13-button:hover .ex-13-bottom-white {
+  animation: bottom-border-13 2s linear ;
+}
+
+@keyframes bottom-border-13 {
+  0%   {right: 10%; bottom: -10px;}
+  28.5%  {right: calc(100% - 30px); bottom: -10px;}
+  42.75%  {right: calc(100% - 30px); bottom: 100%;}
+  71.25%  {right: -30px; bottom: 100%;}
+  85.5%  {right: -30px; bottom: -10px;}
+  100% {right: 10%; bottom: -10px;}
+}
