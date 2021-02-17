@@ -83,7 +83,7 @@
 
 /* ex10 */
 .ex-10-icon {
-  animation: circle 2s linear infinite alternate-reverse;
+  animation: circle 2s linear infinite reverse;
 }
 
 @keyframes circle {
@@ -97,8 +97,9 @@
 }
 
 @keyframes circle-2 {
-  from {transform:rotate(0deg)}
-  to {transform:rotate(270deg)}
+  0%   {transform:rotate(0deg)}
+  90%  {transform:rotate(270deg)}
+  100% {transform:rotate(0deg)}
 }
 
 /* ex12 */
