@@ -87,8 +87,13 @@
 }
 
 @keyframes circle {
-  from {transform:rotate(0deg)}
-  to {transform:rotate(360deg)}
+  from {
+    transform:rotate(0deg)
+  }
+
+  to {
+    transform:rotate(360deg)
+  }
 }
 
 /* ex11 */
@@ -97,9 +102,17 @@
 }
 
 @keyframes circle-2 {
-  0%   {transform:rotate(0deg)}
-  90%  {transform:rotate(270deg)}
-  100% {transform:rotate(0deg)}
+  0% {
+    transform:rotate(0deg)
+  }
+
+  90% {
+    transform:rotate(270deg)
+  }
+
+  100% {
+    transform:rotate(0deg)
+  }
 }
 
 /* ex12 */
@@ -108,9 +121,17 @@
 }
 
 @keyframes top-border-12 {
-  0%   {left: 10%; top: -10px;}
-  50%  {left: calc(100% - 60px); top: -10px;}
-  100% {left: 10%; top: -10px;}
+  0% {
+    left: 10%;
+  }
+
+  50% {
+    left: calc(100% - 60px);
+  }
+
+  100% {
+    left: 10%;
+  }
 }
 
 .ex-12-button:hover .ex-12-bottom-white {
@@ -118,9 +139,17 @@
 }
 
 @keyframes bottom-border-12 {
-  0%   {right: 20%; bottom: -10px;}
-  50%  {right: calc(100% - 60px); bottom: -10px;}
-  100% {right: 20%; bottom: -10px;}
+  0% {
+    right: 20%;
+  }
+
+  50% {
+    right: calc(100% - 60px);
+  }
+
+  100% {
+    right: 20%;
+  }
 }
 
 /* ex13 */
@@ -129,12 +158,35 @@
 }
 
 @keyframes top-border-13 {
-  0%   {left: 10%; top: -10px;}
-  28.5%  {left: calc(100% - 30px); top: -10px;}
-  42.75%  {left: calc(100% - 30px); top: 100%;}
-  71.25%  {left: -30px; top: 100%;}
-  85.5%  {left: -30px; top: -10px;}
-  100% {left: 10%; top: -10px;}
+  0% {
+    left: 10%;
+    top: -10px;
+  }
+
+  28.5% {
+    left: calc(100% - 30px);
+    top: -10px;
+  }
+
+  42.75% {
+    left: calc(100% - 30px);
+    top: 100%;
+  }
+
+  71.25% {
+    left: -30px;
+    top: 100%;
+  }
+
+  85.5% {
+    left: -30px;
+    top: -10px;
+  }
+
+  100% {
+    left: 10%;
+    top: -10px;
+  }
 }
 
 .ex-13-button:hover .ex-13-bottom-white {
@@ -142,10 +194,33 @@
 }
 
 @keyframes bottom-border-13 {
-  0%   {right: 10%; bottom: -10px;}
-  28.5%  {right: calc(100% - 30px); bottom: -10px;}
-  42.75%  {right: calc(100% - 30px); bottom: 100%;}
-  71.25%  {right: -30px; bottom: 100%;}
-  85.5%  {right: -30px; bottom: -10px;}
-  100% {right: 10%; bottom: -10px;}
+  0% {
+    right: 10%;
+    bottom: -10px;
+  }
+
+  28.5% {
+    right: calc(100% - 30px);
+    bottom: -10px;
+  }
+
+  42.75% {
+    right: calc(100% - 30px);
+    bottom: 100%;
+  }
+
+  71.25% {
+    right: -30px;
+    bottom: 100%;
+  }
+
+  85.5% {
+    right: -30px;
+    bottom: -10px;
+  }
+  
+  100% {
+    right: 10%;
+    bottom: -10px;
+  }
 }
